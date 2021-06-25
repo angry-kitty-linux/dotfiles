@@ -1,0 +1,10 @@
+export ZSH="/home/evilcat/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(sudo)
+
+source $ZSH/oh-my-zsh.sh
+
+alias cat="bat"
+alias ccat="cat"
+alias ssh="kitty +kitten ssh"
+
